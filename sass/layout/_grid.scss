@@ -1,0 +1,19 @@
+.grid-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @include respond(normal-desktop) {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.grid-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  @include respond(normal-desktop) {
+    grid-template-columns: 70rem;
+    justify-content: center;
+    align-items: center;
+  }
+}

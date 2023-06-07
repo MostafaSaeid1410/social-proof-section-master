@@ -1,0 +1,203 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 50%; }
+  @media (max-width: 80em) {
+    html {
+      font-size: 62.5%; } }
+  @media (max-width: 23.4375em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #777; }
+
+.heading-primary {
+  font-weight: 700;
+  font-size: 6.2rem;
+  line-height: 0.9;
+  color: #502050; }
+  @media (max-width: 80em) {
+    .heading-primary {
+      text-align: center;
+      padding: 0 5rem; } }
+
+.paragraph {
+  font-size: 1.8rem;
+  padding-right: 27rem;
+  color: #937b92; }
+  @media (max-width: 80em) {
+    .paragraph {
+      padding-right: 0;
+      padding: 0 30rem;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 5rem; } }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
+.u-margin-top-medium {
+  margin-top: 4rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.u-padding-right-big {
+  padding-right: 17rem; }
+  @media (max-width: 80em) {
+    .u-padding-right-big {
+      padding-right: 0; } }
+
+@media (max-width: 80em) {
+  .u-center-div {
+    margin: 0 auto;
+    margin-top: 5rem;
+    font-size: 9rem;
+    width: 70rem; } }
+
+.grid-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  @media (max-width: 80em) {
+    .grid-row-1 {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center; } }
+
+.grid-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem; }
+  @media (max-width: 80em) {
+    .grid-row-2 {
+      grid-template-columns: 70rem;
+      justify-content: center;
+      align-items: center; } }
+
+.section-testimonial {
+  width: 144rem;
+  margin: 0 auto;
+  padding-top: 10vh; }
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.review {
+  height: 6rem;
+  width: 45rem;
+  padding-left: 4rem;
+  background-color: #f7f2f7;
+  border-radius: 8px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 4rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #502050; }
+  @media (max-width: 80em) {
+    .review {
+      width: 70rem;
+      gap: 6rem;
+      font-size: 2rem;
+      letter-spacing: 0.2rem;
+      height: 10rem; } }
+  .review__stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; }
+  .review--1 {
+    transform: translateX(-30%); }
+    @media (max-width: 80em) {
+      .review--1 {
+        transform: translateX(0); } }
+  .review--2 {
+    transform: translateX(-15%); }
+    @media (max-width: 80em) {
+      .review--2 {
+        transform: translateX(0); } }
+  .review--3 {
+    transform: translateX(0); }
+    @media (max-width: 80em) {
+      .review--3 {
+        transform: translateX(0); } }
+  .review:not(:last-child) {
+    margin-bottom: 2rem; }
+
+.testimonial {
+  background-color: #502050;
+  border-radius: 8px;
+  padding: 4rem 5rem; }
+  @media (max-width: 80em) {
+    .testimonial {
+      width: 70rem; } }
+  .testimonial__person {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem; }
+  .testimonial__personal-information {
+    font-weight: 600;
+    color: #fff; }
+    .testimonial__personal-information span {
+      display: block; }
+      .testimonial__personal-information span:not(:first-child) {
+        margin-top: -0.6rem; }
+  .testimonial__badge {
+    color: #ee68a4;
+    font-weight: 400; }
+  .testimonial__img {
+    border-radius: 99999px;
+    height: 5rem;
+    width: 5rem; }
+  .testimonial__opinion {
+    font-size: 2rem;
+    color: #fff; }
+  .testimonial--1 {
+    transform: translateY(-10%); }
+    @media (max-width: 80em) {
+      .testimonial--1 {
+        transform: translateY(0); } }
+  .testimonial--2 {
+    transform: translateY(-5%); }
+    @media (max-width: 80em) {
+      .testimonial--2 {
+        transform: translateY(0); } }
+  .testimonial--3 {
+    transform: translateY(0%); }
+    @media (max-width: 80em) {
+      .testimonial--3 {
+        transform: translateY(0); } }
